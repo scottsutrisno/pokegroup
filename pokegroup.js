@@ -1,5 +1,5 @@
 let allPoke = [];
-  console.log (allPoke);
+
 
 
 
@@ -12,11 +12,13 @@ class Pokemon{
         this.name = name
 
     }
+
     ability(ability){
 
         this.abilities.push(ability)
     }
-}
+
+
 class Scott{
     constructor(){
         this.pokemon = []
@@ -40,6 +42,7 @@ class Scott{
 
 }
 let scooter = new Scott()
+  console.log (scooter.pokemon);
 
 
 // PIPLUP //
