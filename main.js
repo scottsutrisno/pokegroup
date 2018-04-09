@@ -6,5 +6,5 @@
 
 scottPoke(function(scooter) {
 
-  console.log(scooter.all)
+  console.log(scooter.all())
 })

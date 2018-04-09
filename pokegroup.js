@@ -18,10 +18,10 @@ class Pokemon{
         this.abilities.push(ability)
     }
 
-
+}
 class Scott {
     constructor(){
-        this.pokemon = []
+        this.pokemon = [];
     }
     all(){
         return this.pokemon
@@ -31,20 +31,10 @@ class Scott {
         this.pokemon.push(addToArray)
     }
 
-    // get(name) {
-    //    for(let i = 0; i < this.pokemon.length; i++) {
-    //      if(name == this.pokemon[i].name) {
-    //        return this.pokemon[i];
-    //      }
-    //    }
-    //  }
-
-
 }
+
 let scooter = new Scott()
-
 function scottPoke(callback) {
-
 
 let url1 = "https://pokeapi.co/api/v2/pokemon/393/"
 let url2 = "https://pokeapi.co/api/v2/pokemon/394/"
@@ -61,7 +51,7 @@ axios.all([
   responses.forEach(response => {
 
 let data = response.data
-let pokemon = new Pokemon
+let pokemon = new Pokemon(
 data.name,
 data.stats[5].base_stat,
 data.stats[4].base_stat,
@@ -74,13 +64,14 @@ data.abilities.forEach((item, ability) => {
 
   scooter.add(pokemon)
   })
-    callback(scooter)
+callback(scooter)
+})
+
 }
-}
 
 
+// console.log(scooter.all)
 
-//
 // axios.get("https://pokeapi.co/api/v2/pokemon/393/")
 // .then((response) => {
 //     let data = response.data
@@ -104,9 +95,9 @@ data.abilities.forEach((item, ability) => {
 // scooter.add(pokemon)
 // })
 //
-// callback(scooter)
+// // callback(scooter)
 //
-// })
+//
 //
 //
 //
@@ -128,7 +119,7 @@ data.abilities.forEach((item, ability) => {
 //     // attack.innerHTML = piplup.attack
 //     // defense.innerHTML = piplup.defense
 //
-// })
+//
 //
 //
 //
