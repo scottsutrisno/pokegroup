@@ -1,0 +1,84 @@
+@import "variables";
+
+body {
+    background-color: $lblue;
+}
+
+header, footer {
+    background-color: $blue;
+    height: 130px;
+    margin: 15px 0;
+    border-radius: 100px;
+    font-family: $heading-font;
+    border: 1.25px solid black;
+}
+.logo {
+    margin: 20px;
+    height: 100px;
+    width: 140px;
+}
+#gym-name {
+    margin-top: 15px;
+    color: gold;
+    text-shadow: 3px 3px rgb(1, 1, 255);
+}
+
+#landing {
+    background-color: $red;
+    height: 575px;
+    border-radius: 70px;
+    border: 1.25px solid black;
+}
+#top{
+    margin: 0;
+}
+#bottom {
+    margin: 0;
+}
+#trainers {
+    margin: 50px 35px 0px;
+    padding: 0;
+    width: 1100px;
+    height: 220px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 1px solid $blue;
+}
+#yorvi {
+    background-color: rgb(65, 37, 65);
+    height: 255px; 
+    border-top-left-radius: 50px;
+}
+#scottie {
+    background-color: rgb(40, 58, 12);
+    height: 255px;
+    border-top-right-radius: 50px;
+}
+
+#poke-showcase {
+    background-color: $blue;
+    margin: 0px 35px;
+    padding: 0;
+    width: 1100px;
+    height: 255px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#y-poke {
+    background-color: violet;
+    height: 255px; 
+    border-bottom-left-radius: 50px;
+}
+#s-poke {
+    background-color: greenyellow;
+    height: 255px;
+    border-bottom-right-radius: 50px;
+}
+
+#battle {
+    margin-top: 50px;
+    background-color: $red;
+    height: 575px;
+    border-radius: 70px;
+    border: 1.25px solid black;
+}
