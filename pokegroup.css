@@ -1,0 +1,56 @@
+#trainerSprite {
+  margin-top: 75px;
+}
+
+#trainerSprite2 {
+  margin-top: 52px;
+
+}
+
+#piplupImg {
+  margin: 25px 0px 0px 10px;
+  width: 150px;
+  height:150px;
+}
+
+#venasaurImg {
+  float: right;
+  margin: 30px 25px 0px 10px;
+  width: 190px;
+  height:150px;
+}
+
+h6 {
+   text-align: center;
+}
+
+.scottPokeSprites img {
+  width: 30px;
+  height: 30px;
+
+}
+
+
+.moveContainer{
+  margin-right: 12px;
+  margin-top: 30px;
+}
+
+
+.moveContainer div {
+  float:right;
+  background: green;
+  border: solid black;
+  padding:0px 130px 0px 150px;
+  width: 49%;
+
+}
+
+.moveContainer2 div {
+  float:right;
+  background: green;
+  border: solid black;
+  padding:0px 130px 0px 150px;
+  width: 50%;
+
+}
