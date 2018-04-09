@@ -18,9 +18,13 @@ footer {
   width: 140px; }
 
 #gym-name {
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-left: 250px;
   color: gold;
   text-shadow: 3px 3px #0101ff; }
+
+.sub-heading {
+  margin-left: 45px; }
 
 #landing {
   background-color: #E63946;
