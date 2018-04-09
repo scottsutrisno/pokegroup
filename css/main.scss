@@ -12,6 +12,9 @@ header, footer {
     font-family: $heading-font;
     border: 1.25px solid black;
 }
+footer {
+    margin-bottom: 0;
+}
 .logo {
     margin: 20px;
     height: 100px;
@@ -29,6 +32,7 @@ header, footer {
     border-radius: 70px;
     border: 1.25px solid black;
 }
+
 #top{
     margin: 0;
 }
@@ -78,7 +82,59 @@ header, footer {
 #battle {
     margin-top: 50px;
     background-color: $red;
-    height: 575px;
+    height: 600px;
     border-radius: 70px;
     border: 1.25px solid black;
+}
+#high {
+    border: 2px solid white; 
+    height: 265px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;    
+}
+#nada1 { 
+    background-color: black;
+    height: 261px;
+    border-top-left-radius: 60px;
+}
+#main {
+    background-color: $lgb;
+    height: 261px;
+}
+#y-battle {
+    background-color: rgb(65, 37, 65);
+    height: 261px;
+    border-top-right-radius: 60px;
+}
+
+#spacer {
+    height: 45px;
+    background-color: wheat;
+}
+.rotation {
+    height: 39px;
+    width: 50px;
+    margin: 3px 370px 0;
+}
+
+#low {
+    border: 2px solid white; 
+    height: 265px;
+    margin-top: 0px;
+    padding: 0;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;    
+}
+#s-battle {
+    background-color: rgb(40, 58, 12);
+    height: 261px;
+    border-bottom-left-radius: 60px;
+}
+#nada2 {
+    background-color: black;
+    height: 261px;
+    border-bottom-right-radius: 60px;
 }
