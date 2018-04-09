@@ -1,8 +1,4 @@
-// let scotvin = [];
-// scotvin.push(scooter);
-//
-// console.log (scotvin);
-
+let pokeAll =(scooter.all(),yorvin.all())
 
 scottPoke(function(scooter) {
 

@@ -70,6 +70,11 @@ callback(scooter)
 }
 
 
+
+
+
+
+
 // console.log(scooter.all)
 
 // axios.get("https://pokeapi.co/api/v2/pokemon/393/")
