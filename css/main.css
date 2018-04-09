@@ -89,7 +89,7 @@ footer {
   border-top-right-radius: 60px; }
 
 #nada1 {
-  background-color: black;
+  background: repeating-linear-gradient(-45deg, gray, black 5px, gray 5px, black 10px);
   height: 261px;
   border-top-left-radius: 60px; }
 
@@ -125,7 +125,7 @@ footer {
   border-bottom-left-radius: 60px; }
 
 #nada2 {
-  background-color: black;
+  background: repeating-linear-gradient(-45deg, gray, black 5px, gray 5px, black 10px);
   height: 261px;
   border-bottom-right-radius: 60px; }
 
