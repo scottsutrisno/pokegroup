@@ -10,3 +10,7 @@ yorviPake(function(yorvin) {
 
   console.log(yorvin.all())
 })
+
+
+let health = document.getElementById("health")
+ONCLICK health.value -= 10;
