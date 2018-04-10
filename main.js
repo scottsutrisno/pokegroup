@@ -16,10 +16,10 @@ yorviPake(function(yorvin) {
 
 
 let healthVena = document.querySelector("#healthVenasaur");
-let moveOne = document.querySelector("#move1");
-let moveTwo = document.querySelector("#move2");
-let moveThree = document.querySelector("#move3");
-let moveFour = document.querySelector("#move4");
+let hpump = document.querySelector("#hpump");
+let dpeck = document.querySelector("#dpeck");
+let ibeam = document.querySelector("#ibeam");
+let gknot = document.querySelector("#gknot");
 let venaImage = document.querySelector("#venasaurImg");
 let hpname = document.querySelector(".hpnumberTop");
 
@@ -27,10 +27,10 @@ let hpname = document.querySelector(".hpnumberTop");
 
 
 let healthPiplup = document.querySelector("#healthPiplup");
-let moveFive = document.querySelector("#move5");
-let moveSix = document.querySelector("#move6");
-let moveSeven = document.querySelector("#move7");
-let moveEight = document.querySelector("#move8");
+let swave = document.querySelector("#swave");
+let epower = document.querySelector("#epower");
+let gdrain = document.querySelector("#gdrain");
+let synth = document.querySelector("#synth");
 let pipImage = document.querySelector("#piplupImg")
 
 
@@ -52,7 +52,7 @@ let hpNum3 = document.querySelector(".hpnumberTop3");
 
 
 
-moveOne.addEventListener("click", hydroP);
+hpump.addEventListener("click", hydroP);
 function hydroP() {
 
 healthVena.value -= 60;
@@ -102,7 +102,7 @@ if (healthVena.value == 0) {
 
 
 
-moveTwo.addEventListener("click", drillPeck);
+dpeck.addEventListener("click", drillPeck);
 function drillPeck() {
 
 healthVena.value -= 100;
@@ -135,7 +135,7 @@ if (healthVena.value == 0) {
 
 
 
-moveThree.addEventListener("click", iceBeam);
+ibeam.addEventListener("click", iceBeam);
 function iceBeam() {
 
 healthVena.value -= 75;
@@ -161,7 +161,7 @@ if (healthVena.value == 0) {
 }
 }
 
-moveFour.addEventListener("click", grassKnot);
+gknot.addEventListener("click", grassKnot);
 function grassKnot() {
 
 healthVena.value -= 15;
@@ -190,7 +190,7 @@ if (healthVena.value == 0) {
 
 
 
-moveFive.addEventListener("click", sludgeWave);
+swave.addEventListener("click", sludgeWave);
 function sludgeWave() {
 
 healthPiplup.value -= 80;
@@ -208,7 +208,7 @@ if (healthPiplup.value == 0) {
 
 }
 
-moveSix.addEventListener("click", earthPower);
+epower.addEventListener("click", earthPower);
 function earthPower() {
 
 healthPiplup.value -= 60;
@@ -226,7 +226,7 @@ if (healthPiplup.value == 0) {
 
 }
 
-moveSeven.addEventListener("click", gigaD);
+gdrain.addEventListener("click", gigaD);
 function gigaD() {
 
 healthPiplup.value -= 80;
@@ -245,7 +245,7 @@ if (healthPiplup.value == 0) {
 
 }
 
-moveEight.addEventListener("click", synthesis);
+synth.addEventListener("click", synthesis);
 function synthesis() {
 
 healthVena.value += 50;
