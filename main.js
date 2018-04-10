@@ -1,15 +1,77 @@
-let pokeAll =(scooter.all())
+scottieAxiosCalls(function (Scott) {
+      console.log(Scott);
 
-scottPoke(function(scooter) {
+    let name4 = document.querySelector("#name-s1")
+    let stats4 = document.querySelector("#stats-s1")
+    let abilities4 = document.querySelector("#ab-s1")
 
-  console.log(scooter.all())
-});
+
+    name4.innerHTML = Scott.all[0].name
+    stats4.innerHTML = "HP: " + Scott.all[0].hp + ", " + "ATK: " + Scott.all[0].attack + ", " + "DEF: " + Scott.all[0].defense
+    abilities4.innerHTML = "Abillities: " + "[ " + Scott.all[0].abilities + " ]";
 
 
-yorviPake(function(yorvin) {
 
-  console.log(yorvin.all())
-})
+
+    let name5 = document.querySelector("#name-s2")
+    let stats5 = document.querySelector("#stats-s2")
+    let abilities5 = document.querySelector("#ab-s2")
+
+
+    name5.innerHTML = Scott.all[1].name
+    stats5.innerHTML = "HP: " + Scott.all[1].hp + ", " + "ATK: " + Scott.all[1].attack + ", " + "DEF: " + Scott.all[1].defense
+    abilities5.innerHTML = "Abillities: " + "[ " + Scott.all[1].abilities + " ]";
+
+
+
+
+    let name6 = document.querySelector("#name-s3")
+    let stats6 = document.querySelector("#stats-s3")
+    let abilities6 = document.querySelector("#ab-s3")
+
+    name6.innerHTML = Scott.all[2].name
+    stats6.innerHTML = "HP: " + Scott.all[2].hp + ", " + "ATK: " + Scott.all[2].attack + ", " + "DEF: " + Scott.all[2].defense
+    abilities6.innerHTML = "Abillities: " + "[ " + Scott.all[2].abilities + " ]"
+
+  });
+  
+
+
+
+
+  yorviAxiosCalls(function (Yorvi) {
+
+      let name1 = document.querySelector("#name-y1")
+      let stats1 = document.querySelector("#stats-y1")
+      let abilities1 = document.querySelector("#ab-y1")
+  
+      name1.innerHTML = Yorvi.all[0].name
+      stats1.innerHTML = "HP: " + Yorvi.all[0].hp + ", " + "ATK: " + Yorvi.all[0].attack + ", " + "DEF: " + Yorvi.all[0].defense
+      abilities1.innerHTML = "Abillities: " + "[ " + Yorvi.all[0].abilities + " ]";
+  
+
+
+
+      let name2 = document.querySelector("#name-y2")
+      let stats2 = document.querySelector("#stats-y2")
+      let abilities2 = document.querySelector("#ab-y2")
+  
+      name2.innerHTML = Yorvi.all[1].name
+      stats2.innerHTML = "HP: " + Yorvi.all[1].hp + ", " + "ATK: " + Yorvi.all[1].attack + ", " + "DEF: " + Yorvi.all[1].defense
+      abilities2.innerHTML = "Abillities: " + "[ " + Yorvi.all[1].abilities + " ]";
+  
+
+
+
+      let name3 = document.querySelector("#name-y3")
+      let stats3 = document.querySelector("#stats-y3")
+      let abilities3 = document.querySelector("#ab-y3")
+  
+      name3.innerHTML = Yorvi.all[2].name
+      stats3.innerHTML = "HP: " + Yorvi.all[2].hp + ", " + "ATK: " + Yorvi.all[2].attack + ", " + "DEF: " + Yorvi.all[2].defense
+      abilities3.innerHTML = "Abillities: " + "[ " + Yorvi.all[2].abilities + " ]"
+  });
+  
 
 
 
