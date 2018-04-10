@@ -1,17 +1,18 @@
 #trainerSprite {
-  margin-top: 15px;
-  margin-left: 5px;
-  width: 155px;
-  height: 200px;
+
+  margin-top: 20px;
 }
+
+
 
 #trainerSprite2 {
   margin-top: 20px;
   margin-left: 37px;
-  width: 120px;
-  height: 200px;
+  width: 80px;
+  height: 130px;
 
 }
+
 
 #piplupImg {
   margin: 25px 0px 0px 50px;
@@ -37,7 +38,7 @@
   opacity: 0;
 }
 
-#venusaurImg {
+#venasaurImg {
   float: right;
   margin: 30px 0px 0px 10px;
   width: 190px;
@@ -45,10 +46,10 @@
   position: absolute;
   left: 850px;
   top: 1000px;
-
+  opacity: 1;
 }
 
-#starmieImg {
+#starImg {
   float: right;
   margin: 30px 0px 0px 10px;
   width: 190px;
@@ -71,7 +72,7 @@
 
 h6 {
    margin-top: 7px;
-   margin-bottom: 0; 
+   margin-bottom: 0;
    text-align: center;
    color: white;
 }
@@ -85,38 +86,122 @@ h6 {
 
 .moveContainerBottom{
   margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 2;
+
 }
+
+.moveContainerBottom2{
+  margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 1;
+}
+
+.moveContainerBottom3{
+  margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 0;
+}
+
+.moveContainerTop {
+  position: absolute;
+  width: 750px;
+    z-index: 2;
+}
+
+.moveContainerTop2 {
+  position: absolute;
+    width: 750px;
+      z-index: 1;
+}
+
+.moveContainerTop3 {
+  position: absolute;
+    width: 750px;
+    z-index: 0;
+}
+
 
 
 
 .moveContainerBottom button {
   float:right;
-  border: solid white 1px;
   padding:0px 130px 0px 130px;
   width: 50%;
   height: 30px;
-    background-color: black;
-    color: white;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+
+}
+
+.moveContainerBottom2 button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+}
+
+.moveContainerBottom3 button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
 
 }
 
 .moveContainerTop button {
   float:right;
-  border: solid white 1px;
   padding:0px 130px 0px 130px;
   width: 50%;
   height: 30px;
-    background-color: black;
-    color: white;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
 
 }
 
-.moveContainer button:hover {
+.moveContainerTop2 button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+}
+.moveContainerTop3 button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+.moveContainerTop button:hover {
   background-color: white;
   color: black;
 }
 
-.moveContainer2 button:hover {
+.moveContainerBottom button:hover {
   background-color: white;
   color: black;
 }
@@ -126,26 +211,8 @@ h6 {
 }
 
 
-/* .hpbox {
-border-bottom: double black 4px;
-border-left: solid black 4px;
-width: 300px;
-float: right;
-height: 18px;
-margin: 160px 0px 0px 0px;
-
-}
 
 
-
-.hpinner {
-  background-color: rgb(0, 255, 18);
-  width: 296px;
-  height: 12px;
-
-
-
-} */
 progress {
   width: 296px;
 }
@@ -155,34 +222,184 @@ progress {
   margin-top: 155px;
   margin-left: 10px;
 font-size: 15px;
-
+position: absolute;
+opacity: 1;
+left: 925px;
+z-index: 2;
 }
 
-.hpnumberTop {
-  float: left;
-  margin-top: 32px;
-  margin-right: 5px;
+.hpnumberBot2 {
+  float: right;
+  margin-top: 155px;
+  margin-left: 10px;
 font-size: 15px;
-
+position: absolute;
+opacity: 0;
+left: 925px;
+z-index: 1;
 }
 
+.hpnumberBot3 {
+  float: right;
+  margin-top: 155px;
+  margin-left: 10px;
+font-size: 15px;
+position: absolute;
+opacity: 0;
+left: 925px;
+z-index: 0;
+
+}
 #piplupHP {
   border-right: solid black 2px;
   border-bottom: solid black 2px;
   width: 300px;
   height: 15px;
   float: right;
-  margin: 160px 0px 0px 0px;
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 1;
+}
+
+#prinplupHP {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: right;
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 0;
+}
+#empoleonHP {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: right;
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 0;
+}
+
+.hpnumberTop {
+  float: left;
+font-size: 15px;
+position: absolute;
+top:1005px;
+opacity: 1;
 
 }
 
+.hpnumberTop2 {
+  float: left;
+font-size: 15px;
+position: absolute;
+top:1005px;
+opacity: 0;
 
-#venusaurHP {
+}
+
+.hpnumberTop3 {
+  float: left;
+font-size: 15px;
+position: absolute;
+top:1005px;
+opacity: 0;
+
+}
+#venasaurHP {
   border-left: solid black 2px;
   border-bottom: solid black 2px;
   width: 300px;
   height: 15px;
   float: left;
-  margin: 35px 130px 0px 0px;
+  margin: 85px 130px 0px 0px;
+  position: absolute;
+  opacity: 1;
 
 }
+#starmieHP {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: left;
+  margin: 85px 130px 0px 0px;
+  position: absolute;
+  opacity: 1;
+
+}
+#arcanineHP {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: left;
+  margin: 85px 130px 0px 0px;
+  position: absolute;
+  opacity: 1;
+
+}
+
+
+.pokeballSprite {
+  width: 30px;
+  height: 30px;
+  margin: 30px 0px 0px 12px;
+}
+
+.pokeballSprite2 {
+  width: 30px;
+  height: 30px;
+  margin: 30px 0px 0px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes attack {
+  0% {
+    transform: translateX(0px); }
+  50% {
+    transform: translateX(30px); }
+  100 {
+    transform: translateX(0px); }
+
+   }
+
+   .attack {
+     animation-name: attack;
+     animation-duration: 0.4s;
+     animation-fill-mode: forwards; }
+
+
+
+
+
+@keyframes attackTop {
+  0% {
+    transform: translateX(0px); }
+  50% {
+    transform: translateX(-30px); }
+  100 {
+    transform: translateX(0px); }
+
+   }
+
+   .attackTop {
+     animation-name: attackTop;
+     animation-duration: 0.4s;
+     animation-fill-mode: forwards; }

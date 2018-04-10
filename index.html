@@ -57,8 +57,8 @@
                             <section class="pokemon">
                                 <span id="name-y1">Arcanine</span>
                                 <ul class="stats">
-                                    <li id="stats-y1">HP: 80, ATK: 80, DEF: 80</li>
-                                    <li id="ab-y1">Abillities: [fire, burn, attack]</li>
+                                    <li id="stats-y1">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-y1">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
@@ -66,8 +66,8 @@
                             <section class="pokemon">
                                 <span id="name-y2">Venusaur</span>
                                 <ul class="stats">
-                                    <li id="stats-y2">HP: 80, ATK: 80, DEF: 80</li>
-                                    <li id="ab-y2">Abillities: [fire, burn, attack]</li>
+                                    <li id="stats-y2">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-y2">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
@@ -75,8 +75,8 @@
                             <section class="pokemon">
                                 <span id="name-y3">Starmie</span>
                                 <ul class="stats">
-                                    <li id="stats-y3">HP: 80, ATK: 80, DEF: 80</li>
-                                    <li id="ab-y3">Abillities: [fire, burn, attack]</li>
+                                    <li id="stats-y3">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-y3">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
@@ -84,28 +84,28 @@
                     <span id="s-poke" class="col l6">
                         <div class="row">
                             <section class="pokemon">
-                                <span class="name">Piplup</span>
-                                <ul class="stats">
-                                    <li>HP: 80, ATK: 80, DEF: 80</li>
-                                    <li>Abillities: [fire, burn, attack]</li>
+                                <span id="name-s1">Piplup</span>
+                                <ul>
+                                    <li id="stats-s1">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-s1">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
                         <div class="row">
                             <section class="pokemon">
-                                <span class="name">Prinlup</span>
-                                <ul class="stats">
-                                    <li>HP: 80, ATK: 80, DEF: 80</li>
-                                    <li>Abillities: [fire, burn, attack]</li>
+                                <span id="name-s2">Prinlup</span>
+                                <ul>
+                                    <li id="stats-s2">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-s2">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
                         <div class="row">
                             <section class="pokemon">
-                                <span class="name">Empoleon</span>
-                                <ul class="stats">
-                                    <li>HP: 80, ATK: 80, DEF: 80</li>
-                                    <li>Abillities: [fire, burn, attack]</li>
+                                <span id="name-s3">Empoleon</span>
+                                <ul>
+                                    <li id="stats-s3">HP: --, ATK: --, DEF: --</li>
+                                    <li id="ab-s3">Abillities: [ NOT LOADED ]</li>
                                 </ul>
                             </section>
                         </div>
@@ -121,23 +121,54 @@
                 <section id="nada1" class="col l2"></section>
                 <section id="main" class="col l8">
           <div class="moveContainerTop">
-            <button id="move1">MOVE1</button>
-            <button id="move2">MOVE2</button>
-            <button id="move3">MOVE3</button>
-            <button id="move4">MOVE4</button>
+            <button id="swave">SLUDGE-WAVE</button>
+            <button id="epower">EARTH-POWER</button>
+            <button id="gdrain">GIGA-DRAIN</button>
+            <button id="synth">SYNTHESIS</button>
           </div>
-          <img id="venusaurImg" src="https://vignette.wikia.nocookie.net/pokemon/images/9/9f/Venusaur_XY.gif/revision/latest?cb=20140201145445" alt="">
-          <img id="starmieImg" src="https://vignette.wikia.nocookie.net/pokemon/images/9/93/Starmie_XY.gif/revision/latest?cb=20150116153022" alt="">
+
+          <div class="moveContainerTop2">
+            <button id="psych">PSYCHIC</button>
+            <button id="recover">RECOVER</button>
+            <button id="thundaga">THUNDER</button>
+            <button id="hpumpStarmie">HYDRO-PUMP</button>
+          </div>
+          <div class="moveContainerTop3">
+            <button id="fblast">FIRE-BLAST</button>
+            <button id="exspeed">EXTREMESPEED</button>
+            <button id="rslide">ROCK SLIDE</button>
+            <button id="wcharge">WILD CHARGE</button>
+          </div>
+
+
+
+
+
+
+          <img id="venasaurImg" src="https://vignette.wikia.nocookie.net/pokemon/images/9/9f/Venusaur_XY.gif/revision/latest?cb=20140201145445" alt="">
+          <img id="starImg" src="https://vignette.wikia.nocookie.net/pokemon/images/9/93/Starmie_XY.gif/revision/latest?cb=20150116153022" alt="">
           <img id="arcanineImg" src="https://vignette.wikia.nocookie.net/pokemon/images/f/f5/Arcanine_XY.gif/revision/latest?cb=20141013101127" alt="">
 
-<div class="hpnumberTop">240/320 HP</div>
-        <div id="venusaurHP">
-          <progress value="240" max="320"></progress>
+<div class="hpnumberTop">VENASAUR HP</div>
+<div class="hpnumberTop2">STARMIE HP</div>
+<div class="hpnumberTop3">ARCANINE HP</div>
+
+        <div id="venasaurHP">
+          <progress id="healthVenasaur" value="320" max="320"></progress>
+        </div>
+        <div id="starmieHP">
+          <progress id="healthStarmie" value="280" max="280"></progress>
+        </div>
+        <div id="arcanineHP">
+          <progress id="healthArcanine" value="300" max="300"></progress>
         </div>
 
                 </section>
                 <section id="y-battle" class="col l2">
   <img id="trainerSprite2" src="./images/yorvi-rasputin-pixelated.png">
+  <img class="pokeballSprite" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
+  <img class="pokeballSprite" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
+  <img class="pokeballSprite" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
                 </section>
             </div>
 
@@ -167,26 +198,61 @@
 
             <div id="low">
                 <section id="s-battle" class="col l2">
-                  <img id="trainerSprite" src="images/scottie-pixelated.png" alt="">
+
+                  <img class="pokeballSprite2" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
+                  <img class="pokeballSprite2" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
+                  <img class="pokeballSprite2" src="https://lh3.googleusercontent.com/MM5PYDjo3oxuoNTgnqTtVR7Ch_Cv_W6ug0ZdxD51T9bmIRY8GrdPBk2Djwr2Tn-pxyxiQmK1GRsJnzVnYkUYUw=s400" alt="">
+                  <img id="trainerSprite" src="https://www.spriters-resource.com/resources/sheet_icons/4/3696.png" alt="">
+
                 </section>
                 <section id="main-bottom" class="col l8">
 
-                  <div class="hpnumberBot">280/280 HP</div>
+
+
+
+                            <img id="piplupImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/4/43/Piplup-back_XY.gif/revision/latest?cb=20171130090934" alt="">
+                            <img id="prinplupImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/e/e1/Prinplup-back_XY.gif/revision/latest?cb=20171130091507" alt="">
+                            <img id="empoleonImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/e/ed/Empoleon-Shiny-back_XY.gif/revision/latest?cb=20180323110113" alt="">
+
+
+                            <div class="moveContainerBottom">
+                              <button id="hpump">HYDRO-PUMP</button>
+                              <button id="dpeck">DRILL PECK</button>
+                              <button id="ibeam">ICE BEAM</button>
+                              <button id="gknot">GRASS KNOT</button>
+                            </div>
+                            <div class="moveContainerBottom2">
+                              <button id="bbreak">BRICK BREAK</button>
+                              <button id="surf">SURF</button>
+                              <button id="sclaw">SHADOW-CLAW</button>
+                              <button id="blizz">BLIZZARD</button>
+                            </div>
+                            <div class="moveContainerBottom3">
+                              <button id="wfall">WATERFALL</button>
+                              <button id="gimpact">GIGA-IMPACT</button>
+                              <button id="equake">EARTHQUAKE</button>
+                              <button id="rest">REST</button>
+                            </div>
+
+
+
+                  <div class="hpnumberBot">HP PIPLUP</div>
+                  <div class="hpnumberBot2">HP PRINPLUP</div>
+                  <div class="hpnumberBot3">HP EMPOLEON</div>
+
                 <div id="piplupHP">
-                  <progress value="250" max="250"></progress>
+                  <progress id="healthPiplup" value="250" max="250"></progress>
+                </div>
+
+                <div id="prinplupHP">
+                  <progress id="healthPrinplup" value="290" max="290"></progress>
+                </div>
+
+                <div id="empoleonHP">
+                  <progress id="healthempoleon" value="340" max="340"></progress>
                 </div>
 
 
-
-          <img id="piplupImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/4/43/Piplup-back_XY.gif/revision/latest?cb=20171130090934" alt="">
-          <img id="prinplupImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/e/e1/Prinplup-back_XY.gif/revision/latest?cb=20171130091507" alt="">
-          <img id="empoleonImg" src="https://vignette.wikia.nocookie.net/robloxpokemonbrickbronze/images/e/ed/Empoleon-Shiny-back_XY.gif/revision/latest?cb=20180323110113" alt="">
-              <div class="moveContainerBottom">
-                <button id="move1">MOVE1</button>
-                <button id="move2">MOVE2</button>
-                <button id="move3">MOVE3</button>
-                <button id="move4">MOVE4</button>
-              </div>
 
                 </section>
                 <section id="nada2" class="col l2">
@@ -196,7 +262,7 @@
                     <li><img src="" alt=""></li>
                   </ul> -->
                 </section>
-            </div>
+
         </main>
     </div>
 
