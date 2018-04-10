@@ -194,18 +194,18 @@ a {
     border-top-left-radius: 60px;
 }
 #main {
-    background: url("/images/battleground-top.png");
+    background: url("../images/battleground-top.png");
     background-size: 780px 261px; 
     height: 261px;
 }
 #main-bottom{
-    background: url("/images/battleground-bottom.png");
+    background: url("../images/battleground-bottom.png");
     background-size: 780px 261px; 
     height: 261px; 
 }
 
 #y-battle {
-    background: url("/images/battle-drop.png");
+    background: url("../images/battle-drop.png");
     background-size: 200px 220px; 
     height: 261px;
     border-top-right-radius: 60px;
@@ -229,13 +229,12 @@ a {
     border-bottom-right-radius: 60px;    
 }
 #s-battle {
-    background: url("/images/battle-drop.png");
+    background: url("../images/battle-drop.png");
     background-size: 200px 220px; 
     height: 261px;
     border-bottom-left-radius: 60px;
 }
 #nada2 {
-
     background: repeating-linear-gradient(-45deg, gray, black 5px, gray 5px, black 10px);
     height: 261px;
     border-bottom-right-radius: 60px;
