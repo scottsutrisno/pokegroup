@@ -25,12 +25,12 @@ class Scott {
     add(addToArray){
         this.pokemon.push(addToArray)
     }
-    get(name) {
-      for (var i = 0; i < array.length; i++) {
-        if
-        array[i]
-      }
-    }
+    // get(name) {
+    //   for (var i = 0; i < array.length; i++) {
+    //     if
+    //     array[i]
+    //   }
+    // }
 
 
 }
