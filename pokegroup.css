@@ -1,12 +1,15 @@
 #trainerSprite {
-  margin-top: 75px;
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 155px;
+  height: 200px;
 }
 
 #trainerSprite2 {
-  margin-top: 45px;
+  margin-top: 20px;
   margin-left: 37px;
-  width: 90px;
-  height: 130px;
+  width: 120px;
+  height: 200px;
 
 }
 

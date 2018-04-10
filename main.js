@@ -12,5 +12,14 @@ yorviPake(function(yorvin) {
 })
 
 
+
+
+
+
+
+
+
+
+
 let health = document.getElementById("health")
 ONCLICK health.value -= 10;

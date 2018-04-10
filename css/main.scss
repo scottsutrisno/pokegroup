@@ -119,8 +119,20 @@ footer {
     margin-left: 50px;
     position: absolute;
 }
-#battle-btn {
-    
+a {
+    cursor: pointer;
+    position:absolute;
+    margin-left: 33px;
+    margin-top: 90px;
+    width: 125px;
+    height: 43px; 
+    border: 3px solid white;
+    background: linear-gradient(-150deg, yellow, red, black); 
+    border-radius: 20px;
+    padding: 11px;
+}
+#btn {
+    color: white;
 }
 #yorvi {
     background-color: $tgaccent;
