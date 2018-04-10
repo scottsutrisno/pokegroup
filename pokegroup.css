@@ -226,6 +226,7 @@ position: absolute;
 opacity: 1;
 left: 925px;
 z-index: 2;
+color: rgb(167, 210, 255);
 }
 
 .hpnumberBot2 {
@@ -237,6 +238,7 @@ position: absolute;
 opacity: 0;
 left: 925px;
 z-index: 1;
+color: rgb(167, 210, 255);
 }
 
 .hpnumberBot3 {
@@ -248,7 +250,7 @@ position: absolute;
 opacity: 0;
 left: 925px;
 z-index: 0;
-
+color: rgb(167, 210, 255);
 }
 #piplupHP {
   border-right: solid black 2px;
@@ -291,7 +293,7 @@ font-size: 15px;
 position: absolute;
 top:1005px;
 opacity: 1;
-
+color: rgb(167, 210, 255);
 }
 
 .hpnumberTop2 {
@@ -300,7 +302,7 @@ font-size: 15px;
 position: absolute;
 top:1005px;
 opacity: 0;
-
+color: rgb(167, 210, 255);
 }
 
 .hpnumberTop3 {
@@ -309,7 +311,7 @@ font-size: 15px;
 position: absolute;
 top:1005px;
 opacity: 0;
-
+color: rgb(167, 210, 255);
 }
 #venasaurHP {
   border-left: solid black 2px;

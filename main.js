@@ -34,7 +34,7 @@ scottieAxiosCalls(function (Scott) {
     abilities6.innerHTML = "Abillities: " + "[ " + Scott.all[2].abilities + " ]"
 
   });
-  
+
 
 
 
@@ -44,34 +44,34 @@ scottieAxiosCalls(function (Scott) {
       let name1 = document.querySelector("#name-y1")
       let stats1 = document.querySelector("#stats-y1")
       let abilities1 = document.querySelector("#ab-y1")
-  
+
       name1.innerHTML = Yorvi.all[0].name
       stats1.innerHTML = "HP: " + Yorvi.all[0].hp + ", " + "ATK: " + Yorvi.all[0].attack + ", " + "DEF: " + Yorvi.all[0].defense
       abilities1.innerHTML = "Abillities: " + "[ " + Yorvi.all[0].abilities + " ]";
-  
+
 
 
 
       let name2 = document.querySelector("#name-y2")
       let stats2 = document.querySelector("#stats-y2")
       let abilities2 = document.querySelector("#ab-y2")
-  
+
       name2.innerHTML = Yorvi.all[1].name
       stats2.innerHTML = "HP: " + Yorvi.all[1].hp + ", " + "ATK: " + Yorvi.all[1].attack + ", " + "DEF: " + Yorvi.all[1].defense
       abilities2.innerHTML = "Abillities: " + "[ " + Yorvi.all[1].abilities + " ]";
-  
+
 
 
 
       let name3 = document.querySelector("#name-y3")
       let stats3 = document.querySelector("#stats-y3")
       let abilities3 = document.querySelector("#ab-y3")
-  
+
       name3.innerHTML = Yorvi.all[2].name
       stats3.innerHTML = "HP: " + Yorvi.all[2].hp + ", " + "ATK: " + Yorvi.all[2].attack + ", " + "DEF: " + Yorvi.all[2].defense
       abilities3.innerHTML = "Abillities: " + "[ " + Yorvi.all[2].abilities + " ]"
   });
-  
+
 
 
 
@@ -93,6 +93,7 @@ let hpname = document.querySelector(".hpnumberTop");
 
 
 let healthPiplup = document.querySelector("#healthPiplup");
+let selfDe =document.querySelector("#selfD");
 let swave = document.querySelector("#swave");
 let epower = document.querySelector("#epower");
 let gdrain = document.querySelector("#gdrain");
@@ -102,7 +103,6 @@ let surf = document.querySelector("#surf");
 let blizz = document.querySelector("#blizz");
 let sclaw = document.querySelector("#sclaw");
 let psych = document.querySelector("#psych");
-let recover = document.querySelector("#recover");
 let thunder = document.querySelector("#thundaga");
 let hpumpStarmie = document.querySelector("#hpumpStarmie");
 let pipImage = document.querySelector("#piplupImg")
@@ -244,7 +244,10 @@ if (healthVena.value == 0) {
 gknot.addEventListener("click", grassKnot);
 function grassKnot() {
 
-healthVena.value -= 15;
+healthPiplup.value -= 40;
+healthVena.value -= 120;
+healthStarmie.value -= 120;
+healthArcanine.value -= 120;
 pipImage.classList.add("attack");
 
 setTimeout(resetAnimation, 500);
@@ -553,6 +556,40 @@ function brickBreak() {
       starmieHpContainer.style.opacity = "0";
       ArcanineHpContainer.style.opacity = "1";
       healthArcanine.value = 300;
+
+  }
+  }
+  }
+
+
+  selfDe.addEventListener("click", selfDestruct);
+  function selfDestruct() {
+
+  healthstarmie.value -= 400;
+  healthpiplup.value -= 400;
+  healthprinplup.value -= 400;
+
+  starmieImage.classList.add("attackTop");
+
+  setTimeout(resetAnimation, 500);
+        function resetAnimation () {
+  starmieImage.classList.remove("attackTop");
+  }
+
+  if (healthPiplup.value == 0) {
+    setTimeout(death, 1000);
+          function death () {
+            pipImage.style.opacity = "0";
+            prinImage.style.opacity = "1";
+            healthPiplup.style.zIndex = "0";
+            healthPrinplup.style.zIndex = "5";
+            hpNumBot.style.opacity = "0";
+            hpNumBot2.style.opacity = "1";
+            pipMoves.style.zIndex = "-1";
+            prinMoves.style.zIndex = "2";
+            piplupHpContainer.style.opacity = "0";
+            prinplupHpContainer.style.opacity = "1";
+            healthPrinplup.value = 290;
 
   }
   }
