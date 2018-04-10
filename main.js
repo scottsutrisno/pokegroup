@@ -93,6 +93,7 @@ let hpname = document.querySelector(".hpnumberTop");
 
 
 let healthPiplup = document.querySelector("#healthPiplup");
+let selfDe =document.querySelector("#selfD");
 let swave = document.querySelector("#swave");
 let epower = document.querySelector("#epower");
 let gdrain = document.querySelector("#gdrain");
@@ -102,7 +103,6 @@ let surf = document.querySelector("#surf");
 let blizz = document.querySelector("#blizz");
 let sclaw = document.querySelector("#sclaw");
 let psych = document.querySelector("#psych");
-let recover = document.querySelector("#recover");
 let thunder = document.querySelector("#thundaga");
 let hpumpStarmie = document.querySelector("#hpumpStarmie");
 let pipImage = document.querySelector("#piplupImg")
@@ -556,6 +556,40 @@ function brickBreak() {
       starmieHpContainer.style.opacity = "0";
       ArcanineHpContainer.style.opacity = "1";
       healthArcanine.value = 300;
+
+  }
+  }
+  }
+
+
+  selfDe.addEventListener("click", selfDestruct);
+  function selfDestruct() {
+
+  healthstarmie.value -= 400;
+  healthpiplup.value -= 400;
+  healthprinplup.value -= 400;
+
+  starmieImage.classList.add("attackTop");
+
+  setTimeout(resetAnimation, 500);
+        function resetAnimation () {
+  starmieImage.classList.remove("attackTop");
+  }
+
+  if (healthPiplup.value == 0) {
+    setTimeout(death, 1000);
+          function death () {
+            pipImage.style.opacity = "0";
+            prinImage.style.opacity = "1";
+            healthPiplup.style.zIndex = "0";
+            healthPrinplup.style.zIndex = "5";
+            hpNumBot.style.opacity = "0";
+            hpNumBot2.style.opacity = "1";
+            pipMoves.style.zIndex = "-1";
+            prinMoves.style.zIndex = "2";
+            piplupHpContainer.style.opacity = "0";
+            prinplupHpContainer.style.opacity = "1";
+            healthPrinplup.value = 290;
 
   }
   }
