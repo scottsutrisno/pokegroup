@@ -1,8 +1,3 @@
-let allPoke = [];
-
-
-
-
 class Pokemon{
     constructor(name,hp,attack,defense){
         this.hp = hp
@@ -30,6 +25,13 @@ class Scott {
     add(addToArray){
         this.pokemon.push(addToArray)
     }
+    get(name) {
+      for (var i = 0; i < array.length; i++) {
+        if
+        array[i]
+      }
+    }
+
 
 }
 
@@ -68,6 +70,11 @@ callback(scooter)
 })
 
 }
+
+
+
+
+
 
 
 // console.log(scooter.all)

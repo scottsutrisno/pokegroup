@@ -1,8 +1,4 @@
-// let scotvin = [];
-// scotvin.push(scooter);
-//
-// console.log (scotvin);
-
+let pokeAll =(scooter.all())
 
 scottPoke(function(scooter) {
 
@@ -14,3 +10,7 @@ yorviPake(function(yorvin) {
 
   console.log(yorvin.all())
 })
+
+
+let health = document.getElementById("health")
+ONCLICK health.value -= 10;

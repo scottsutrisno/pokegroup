@@ -1,0 +1,183 @@
+#trainerSprite {
+  margin-top: 75px;
+}
+
+#trainerSprite2 {
+  margin-top: 45px;
+  margin-left: 37px;
+  width: 90px;
+  height: 130px;
+
+}
+
+#piplupImg {
+  margin: 25px 0px 0px 50px;
+  width: 150px;
+  height:150px;
+  position: absolute;
+}
+
+#prinplupImg {
+  margin: 25px 0px 0px 50px;
+  width: 150px;
+  height:150px;
+  position: absolute;
+  opacity: 0;
+}
+
+
+#empoleonImg {
+  margin: 0px 150px 0px 50px;
+  width: 140px;
+  height:180px;
+  position: absolute;
+  opacity: 0;
+}
+
+#venasaurImg {
+  float: right;
+  margin: 30px 0px 0px 10px;
+  width: 190px;
+  height:150px;
+  position: absolute;
+  left: 850px;
+  top: 1000px;
+
+}
+
+#starmieImg {
+  float: right;
+  margin: 30px 0px 0px 10px;
+  width: 190px;
+  height:150px;
+  position: absolute;
+  left: 850px;
+  top: 1000px;
+  opacity: 0;
+}
+
+#arcanineImg {
+  float: right;
+  width: 190px;
+  height:150px;
+  position: absolute;
+  left: 875px;
+  top: 1030px;
+  opacity: 0;
+}
+
+h6 {
+   text-align: center;
+   color: white;
+}
+
+.scottPokeSprites img {
+  width: 30px;
+  height: 30px;
+
+}
+
+
+.moveContainerBottom{
+  margin-top: 200px;
+}
+
+
+
+.moveContainerBottom button {
+  float:right;
+  border: solid white 1px;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.moveContainerTop button {
+  float:right;
+  border: solid white 1px;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.moveContainer button:hover {
+  background-color: white;
+  color: black;
+}
+
+.moveContainer2 button:hover {
+  background-color: white;
+  color: black;
+}
+
+#spacer {
+  background-color: black;
+}
+
+
+/* .hpbox {
+border-bottom: double black 4px;
+border-left: solid black 4px;
+width: 300px;
+float: right;
+height: 18px;
+margin: 160px 0px 0px 0px;
+
+}
+
+
+
+.hpinner {
+  background-color: rgb(0, 255, 18);
+  width: 296px;
+  height: 12px;
+
+
+
+} */
+progress {
+  width: 296px;
+}
+
+.hpnumberBot {
+  float: right;
+  margin-top: 155px;
+  margin-left: 10px;
+font-size: 15px;
+
+}
+
+.hpnumberTop {
+  float: left;
+  margin-top: 32px;
+  margin-right: 5px;
+font-size: 15px;
+
+}
+
+#piplupHP {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: right;
+  margin: 160px 0px 0px 0px;
+
+}
+
+
+#venasaurHP {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: left;
+  margin: 35px 130px 0px 0px;
+
+}
