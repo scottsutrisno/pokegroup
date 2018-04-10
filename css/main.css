@@ -112,6 +112,21 @@ footer {
   margin-left: 50px;
   position: absolute; }
 
+a {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 33px;
+  margin-top: 90px;
+  width: 125px;
+  height: 43px;
+  border: 3px solid white;
+  background: linear-gradient(-150deg, yellow, red, black);
+  border-radius: 20px;
+  padding: 11px; }
+
+#btn {
+  color: white; }
+
 #yorvi {
   background-color: #F27825;
   height: 255px;
@@ -170,17 +185,23 @@ footer {
   border-top-left-radius: 60px; }
 
 #main {
-  background-color: #F1FAEE;
+  background: url("/images/battleground-top.png");
+  background-size: 780px 261px;
+  height: 261px; }
+
+#main-bottom {
+  background: url("/images/battleground-bottom.png");
+  background-size: 780px 261px;
   height: 261px; }
 
 #y-battle {
-  background-color: #412541;
+  background: url("/images/battle-drop.png");
+  background-size: 200px 220px;
   height: 261px;
   border-top-right-radius: 60px; }
 
 #spacer {
-  height: 45px;
-  background-color: wheat; }
+  height: 45px; }
 
 .rotation {
   height: 39px;
@@ -196,7 +217,8 @@ footer {
   border-bottom-right-radius: 60px; }
 
 #s-battle {
-  background-color: #283a0c;
+  background: url("/images/battle-drop.png");
+  background-size: 200px 220px;
   height: 261px;
   border-bottom-left-radius: 60px; }
 
