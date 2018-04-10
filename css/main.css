@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Pokemon GB";
+  src: url("fonts/pokemon-gb.ttf"); }
 body {
   background-color: #A8DADC; }
 
@@ -8,6 +11,9 @@ header, footer {
   border-radius: 100px;
   font-family: "Press Start 2P", sans-serif;
   border: 1.25px solid black; }
+
+main {
+  font-family: "Pokemon GB", sans-serif; }
 
 footer {
   margin-bottom: 0; }
@@ -26,11 +32,63 @@ footer {
 .sub-heading {
   margin-left: 45px; }
 
+.trainer-name {
+  margin-left: 28px;
+  margin-top: 12px;
+  font-size: 10px; }
+
+.yorvi-rasputin {
+  height: 210px;
+  width: 150px;
+  margin-top: -75px;
+  margin-left: 290px; }
+
+.right-trainer-name {
+  margin-left: 30px;
+  margin-top: 12px;
+  font-size: 10px; }
+
+.scottie {
+  height: 200px;
+  width: 130px;
+  margin-top: -70px;
+  margin-left: 100px; }
+
 #landing {
   background-color: #E63946;
-  height: 575px;
+  height: 675px;
   border-radius: 70px;
   border: 1.25px solid black; }
+
+.open-pokeball {
+  height: 120px;
+  width: 150px;
+  margin-left: -35px; }
+
+.right-open-pokeball {
+  height: 120px;
+  width: 150px;
+  margin-left: 410px; }
+
+.title-banner {
+  height: 45px;
+  width: 200px;
+  background-color: #0F3D0F;
+  margin-top: -85px;
+  margin-left: 30px;
+  border-top-right-radius: 50px;
+  border: 5px solid white;
+  color: #F27825; }
+
+.right-title-banner {
+  height: 45px;
+  width: 200px;
+  background-color: #003643;
+  margin-top: -85px;
+  margin-left: 295px;
+  border-top-left-radius: 50px;
+  border: 5px solid white;
+  color: #01B7E2; }
 
 #top {
   margin: 0; }
@@ -45,15 +103,22 @@ footer {
   height: 220px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  border: 1px solid #457B9D; }
+  border: 5px solid black; }
+
+#vs {
+  margin-top: -20px;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  position: absolute; }
 
 #yorvi {
-  background-color: #412541;
+  background-color: #F27825;
   height: 255px;
   border-top-left-radius: 50px; }
 
 #scottie {
-  background-color: #283a0c;
+  background-color: #01B7E2;
   height: 255px;
   border-top-right-radius: 50px; }
 
@@ -67,14 +132,21 @@ footer {
   border-bottom-right-radius: 50px; }
 
 #y-poke {
-  background-color: violet;
-  height: 255px;
-  border-bottom-left-radius: 50px; }
+  padding-top: 20px;
+  background-color: #0F3D0F;
+  height: 355px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #F27825; }
 
 #s-poke {
-  background-color: greenyellow;
-  height: 255px;
-  border-bottom-right-radius: 50px; }
+  padding-top: 20px;
+  background-color: #003643;
+  height: 355px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+  color: #01B7E2; }
 
 #battle {
   margin-top: 50px;
