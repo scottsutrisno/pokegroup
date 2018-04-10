@@ -13,16 +13,6 @@
 
 }
 
-/* #s-battle {
-  background-color: rgb(255, 254, 136);
-} */
-
-/* 
-#main {
-background-color: black;
-} */
-
-
 
 #piplupImg {
   margin: 25px 0px 0px 50px;
@@ -96,6 +86,24 @@ h6 {
 
 .moveContainerBottom{
   margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 2;
+
+}
+
+.moveContainerBottom2{
+  margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 1;
+}
+
+.moveContainerBottom3{
+  margin-top: 200px;
+  position: absolute;
+    width: 750px;
+  z-index: 0;
 }
 
 .moveContainerTop {
@@ -120,6 +128,27 @@ h6 {
 
 
 .moveContainerBottom button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+
+}
+
+.moveContainerBottom2 button {
+  float:right;
+  padding:0px 130px 0px 130px;
+  width: 50%;
+  height: 30px;
+  font-family: "Pokemon GB";
+  font-size: 10px;
+
+}
+
+.moveContainerBottom3 button {
   float:right;
   padding:0px 130px 0px 130px;
   width: 50%;
@@ -193,6 +222,32 @@ progress {
   margin-top: 155px;
   margin-left: 10px;
 font-size: 15px;
+position: absolute;
+opacity: 1;
+left: 925px;
+z-index: 2;
+}
+
+.hpnumberBot2 {
+  float: right;
+  margin-top: 155px;
+  margin-left: 10px;
+font-size: 15px;
+position: absolute;
+opacity: 0;
+left: 925px;
+z-index: 1;
+}
+
+.hpnumberBot3 {
+  float: right;
+  margin-top: 155px;
+  margin-left: 10px;
+font-size: 15px;
+position: absolute;
+opacity: 0;
+left: 925px;
+z-index: 0;
 
 }
 #piplupHP {
@@ -201,10 +256,34 @@ font-size: 15px;
   width: 300px;
   height: 15px;
   float: right;
-  margin: 160px 0px 0px 0px;
-
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 1;
 }
 
+#prinplupHP {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: right;
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 0;
+}
+#empoleonHP {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 300px;
+  height: 15px;
+  float: right;
+  left: 800px;
+  top: 1420px;
+  position: absolute;
+  opacity: 0;
+}
 
 .hpnumberTop {
   float: left;
@@ -251,7 +330,7 @@ opacity: 0;
   float: left;
   margin: 85px 130px 0px 0px;
   position: absolute;
-  opacity: 0;
+  opacity: 1;
 
 }
 #arcanineHP {
@@ -262,7 +341,7 @@ opacity: 0;
   float: left;
   margin: 85px 130px 0px 0px;
   position: absolute;
-  opacity: 0;
+  opacity: 1;
 
 }
 
