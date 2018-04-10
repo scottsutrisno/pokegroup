@@ -34,7 +34,7 @@ scottieAxiosCalls(function (Scott) {
     abilities6.innerHTML = "Abillities: " + "[ " + Scott.all[2].abilities + " ]"
 
   });
-  
+
 
 
 
@@ -44,34 +44,34 @@ scottieAxiosCalls(function (Scott) {
       let name1 = document.querySelector("#name-y1")
       let stats1 = document.querySelector("#stats-y1")
       let abilities1 = document.querySelector("#ab-y1")
-  
+
       name1.innerHTML = Yorvi.all[0].name
       stats1.innerHTML = "HP: " + Yorvi.all[0].hp + ", " + "ATK: " + Yorvi.all[0].attack + ", " + "DEF: " + Yorvi.all[0].defense
       abilities1.innerHTML = "Abillities: " + "[ " + Yorvi.all[0].abilities + " ]";
-  
+
 
 
 
       let name2 = document.querySelector("#name-y2")
       let stats2 = document.querySelector("#stats-y2")
       let abilities2 = document.querySelector("#ab-y2")
-  
+
       name2.innerHTML = Yorvi.all[1].name
       stats2.innerHTML = "HP: " + Yorvi.all[1].hp + ", " + "ATK: " + Yorvi.all[1].attack + ", " + "DEF: " + Yorvi.all[1].defense
       abilities2.innerHTML = "Abillities: " + "[ " + Yorvi.all[1].abilities + " ]";
-  
+
 
 
 
       let name3 = document.querySelector("#name-y3")
       let stats3 = document.querySelector("#stats-y3")
       let abilities3 = document.querySelector("#ab-y3")
-  
+
       name3.innerHTML = Yorvi.all[2].name
       stats3.innerHTML = "HP: " + Yorvi.all[2].hp + ", " + "ATK: " + Yorvi.all[2].attack + ", " + "DEF: " + Yorvi.all[2].defense
       abilities3.innerHTML = "Abillities: " + "[ " + Yorvi.all[2].abilities + " ]"
   });
-  
+
 
 
 
@@ -244,7 +244,10 @@ if (healthVena.value == 0) {
 gknot.addEventListener("click", grassKnot);
 function grassKnot() {
 
-healthVena.value -= 15;
+healthPiplup.value -= 40;
+healthVena.value -= 120;
+healthStarmie.value -= 120;
+healthArcanine.value -= 120;
 pipImage.classList.add("attack");
 
 setTimeout(resetAnimation, 500);
