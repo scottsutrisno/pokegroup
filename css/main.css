@@ -170,17 +170,23 @@ footer {
   border-top-left-radius: 60px; }
 
 #main {
-  background-color: #F1FAEE;
+  background: url("/images/battleground-top.png");
+  background-size: 780px 261px;
+  height: 261px; }
+
+#main-bottom {
+  background: url("/images/battleground-bottom.png");
+  background-size: 780px 261px;
   height: 261px; }
 
 #y-battle {
-  background-color: #412541;
+  background: url("/images/battle-drop.png");
+  background-size: 200px 220px;
   height: 261px;
   border-top-right-radius: 60px; }
 
 #spacer {
-  height: 45px;
-  background-color: wheat; }
+  height: 45px; }
 
 .rotation {
   height: 39px;
@@ -196,7 +202,8 @@ footer {
   border-bottom-right-radius: 60px; }
 
 #s-battle {
-  background-color: #283a0c;
+  background: url("/images/battle-drop.png");
+  background-size: 200px 220px;
   height: 261px;
   border-bottom-left-radius: 60px; }
 
