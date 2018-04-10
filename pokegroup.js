@@ -1,74 +1,62 @@
-class Pokemon{
-    constructor(name,hp,attack,defense){
-        this.hp = hp
-        this.attack = attack
-        this.defense = defense
-        this.abilities = []
-        this.name = name
-
-    }
-
-    ability(ability){
-
-        this.abilities.push(ability)
-    }
-
-}
 class Scott {
-    constructor(){
-        this.pokemon = [];
+    constructor() {
+        this.all = [];
     }
-    all(){
-        return this.pokemon
 
+    add(pokemon) {
+        this.all.push(pokemon);
     }
-    add(addToArray){
-        this.pokemon.push(addToArray)
+    get(name) {
+        for (let i = 0; i < this.all.length; i++) {
+            if (name === this.all[i].name) {
+                return this.all[i];
+            }
+        }
     }
-    // get(name) {
-    //   for (var i = 0; i < array.length; i++) {
-    //     if
-    //     array[i]
-    //   }
-    // }
-
-
 }
 
-let scooter = new Scott()
-function scottPoke(callback) {
+class Pokemon {
+    constructor(name, hp, attack, defense, abilities) {
+        this.name = name;
+        this.hp = hp;
+        this.attack = attack;
+        this.defense = defense;
+        this.abilities = abilities;
+    }
+}
 
-let url1 = "https://pokeapi.co/api/v2/pokemon/393/"
-let url2 = "https://pokeapi.co/api/v2/pokemon/394/"
-let url3 = "https://pokeapi.co/api/v2/pokemon/395/"
+let scooter = new Scott();
 
+function scottieAxiosCalls(callback) {
+    let url1 = 'https://pokeapi.co/api/v2/pokemon/393/';
+    let url2 = 'https://pokeapi.co/api/v2/pokemon/394/';
+    let url3 = 'https://pokeapi.co/api/v2/pokemon/395/';
 
-axios.all([
-  axios.get(url1),
-  axios.get(url2),
-  axios.get(url3)
-])
-.then(responses => {
+    axios
+        .all([axios.get(url1), axios.get(url2), axios.get(url3)])
+        .then(responses => {
 
-  responses.forEach(response => {
+            responses.forEach(response => {
 
-let data = response.data
-let pokemon = new Pokemon(
-data.name,
-data.stats[5].base_stat,
-data.stats[4].base_stat,
-data.stats[3].base_stat,
-)
+                let data = response.data;
 
-data.abilities.forEach((item, ability) => {
-        pokemon.ability(item.ability.name)
-  })
+                let pokemon = new Pokemon(
+                    data.name,
+                    data.stats[5].base_stat,
+                    data.stats[4].base_stat,
+                    data.stats[3].base_stat,
+                    data.abilities[0].ability.name,
+                    data.abilities[1].ability.name,
+                );
 
-  scooter.add(pokemon)
-  })
-callback(scooter)
-})
+                // data.abilities.forEach((item, ability) => {
+                // pakemon.ability(item.ability.name);
+                // });
 
+                scooter.add(pokemon);
+            });
+            callback(scooter);
+        });
 }
 
 
