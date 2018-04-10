@@ -29,7 +29,7 @@ footer {
 }
 #gym-name {
     margin-top: 5px;
-    margin-left: 250px; 
+    margin-left: 250px;
     color: gold;
     text-shadow: 3px 3px rgb(1, 1, 255);
 }
@@ -125,9 +125,9 @@ a {
     margin-left: 33px;
     margin-top: 90px;
     width: 125px;
-    height: 43px; 
+    height: 43px;
     border: 3px solid white;
-    background: linear-gradient(-150deg, yellow, red, black); 
+    background: linear-gradient(-150deg, yellow, red, black);
     border-radius: 20px;
     padding: 11px;
 }
@@ -136,7 +136,7 @@ a {
 }
 #yorvi {
     background-color: $tgaccent;
-    height: 255px; 
+    height: 255px;
     border-top-left-radius: 50px;
 }
 #scottie {
@@ -157,13 +157,13 @@ a {
 #y-poke {
     padding-top: 20px;
     background-color: $trainergreen;
-    height: 355px; 
+    height: 355px;
     border-bottom-left-radius: 50px;
     text-align: center;
     font-size: 15px;
     color: $tgaccent;
 }
-#s-poke {   
+#s-poke {
     padding-top: 20px;
     background-color: $trainerblue;
     height: 355px;
@@ -180,33 +180,33 @@ a {
     border: 1.25px solid black;
 }
 #high {
-    border: 2px solid white; 
+    border: 2px solid white;
     height: 265px;
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 0;
     border-top-left-radius: 60px;
-    border-top-right-radius: 60px;    
+    border-top-right-radius: 60px;
 }
-#nada1 { 
+#nada1 {
     background: repeating-linear-gradient(-45deg, gray, black 5px, gray 5px, black 10px);
     height: 261px;
     border-top-left-radius: 60px;
 }
 #main {
-    background: url("/images/battleground-top.png");
-    background-size: 780px 261px; 
+    background: url("../images/battleground-top.png");
+    background-size: 780px 261px;
     height: 261px;
 }
 #main-bottom{
-    background: url("/images/battleground-bottom.png");
-    background-size: 780px 261px; 
-    height: 261px; 
+    background: url("../images/battleground-bottom.png");
+    background-size: 780px 261px;
+    height: 261px;
 }
 
 #y-battle {
-    background: url("/images/battle-drop.png");
-    background-size: 200px 220px; 
+    background: url("../images/battle-drop.png");
+    background-size: 200px 220px;
     height: 261px;
     border-top-right-radius: 60px;
 }
@@ -221,16 +221,16 @@ a {
 }
 
 #low {
-    border: 2px solid white; 
+    border: 2px solid white;
     height: 265px;
     margin-top: 0px;
     padding: 0;
     border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;    
+    border-bottom-right-radius: 60px;
 }
 #s-battle {
-    background: url("/images/battle-drop.png");
-    background-size: 200px 220px; 
+    background: url("./images/battle-drop.png");
+    background-size: 200px 220px;
     height: 261px;
     border-bottom-left-radius: 60px;
 }
