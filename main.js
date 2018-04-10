@@ -33,6 +33,14 @@ let gdrain = document.querySelector("#gdrain");
 let synth = document.querySelector("#synth");
 let pipImage = document.querySelector("#piplupImg")
 
+let healthPrinplup = document.querySelector("#healthPrinplup");
+// let swave = document.querySelector("#swave");
+// let epower = document.querySelector("#epower");
+// let gdrain = document.querySelector("#gdrain");
+// let synth = document.querySelector("#synth");
+
+
+
 
 
 // let healthStar = document.querySelector("#healthStar");
@@ -72,8 +80,8 @@ if (healthVena.value == 0) {
   starImage.style.opacity = "1";
   // healthVena.style.opacity = "0";
   // healthStarmie.style.opacity = "1";
-  hpNum.style.opacity = "0";
-  hpNum2.style.opacity = "1";
+  hpNum.style.zIndex = "-1";
+  hpNum2.style.zIndex = "1";
   venaMoves.style.opacity = "0"; // z index //
   starMoves.style.opacity = "1";
 
@@ -120,8 +128,8 @@ if (healthVena.value == 0) {
   starImage.style.opacity = "1";
   healthVena.style.opacity = "0";
   healthStarmie.style.opacity = "1";
-  hpNum.style.opacity = "0";
-  hpNum2.style.opacity = "1";
+  hpNum.style.zIndex = "-1";
+  hpNum2.style.zIndex = "1";
   venaMoves.style.opacity = "0";
   starMoves.style.opacity = "1";
   // change pokemon //
@@ -152,8 +160,8 @@ if (healthVena.value == 0) {
   starImage.style.opacity = "1";
   healthVena.style.opacity = "0";
   healthStarmie.style.opacity = "1";
-  hpNum.style.opacity = "0";
-  hpNum2.style.opacity = "1";
+  hpNum.style.zIndex = "-1";
+  hpNum2.style.zIndex = "1";
   venaMoves.style.opacity = "0";
   starMoves.style.opacity = "1";
   // change pokemon //
@@ -178,8 +186,8 @@ if (healthVena.value == 0) {
   starImage.style.opacity = "1";
   healthVena.style.opacity = "0";
   healthStarmie.style.opacity = "1";
-  hpNum.style.opacity = "0";
-  hpNum2.style.opacity = "1";
+  hpNum.style.zIndex = "-1";
+  hpNum2.style.zIndex = "1";
   venaMoves.style.opacity = "0";
   starMoves.style.opacity = "1";
   // change pokemon //
@@ -200,12 +208,21 @@ setTimeout(resetAnimation, 500);
       function resetAnimation () {
 venaImage.classList.remove("attackTop");
 }
+
 if (healthPiplup.value == 0) {
-  pipImage.style.opacity = "0";
-  prinImage.style.opacity = "1";
+  setTimeout(death, 1000);
+        function death () {
+  venaImage.style.opacity = "0";
+  starImage.style.opacity = "1";
+  healthVena.style.opacity = "0";
+  healthStarmie.style.opacity = "1";
+  hpNum.style.zIndex = "-1";
+  hpNum2.style.zIndex = "1";
+  venaMoves.style.opacity = "0";
+  starMoves.style.opacity = "1";
   // change pokemon //
 }
-
+}
 }
 
 epower.addEventListener("click", earthPower);
